@@ -1,0 +1,81 @@
+.categoryCard{
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+    >h3{
+        padding: 10px 20px;
+        border-bottom: 3px dotted #CBCBCB;
+        background-color: #eee;
+        margin-bottom: 0;
+        font-size: 20px;
+        color: #8D8D8D;
+    }
+
+    
+    >div{
+        background-color: #fbfbfb;
+
+        >div{
+            display: flex;
+            justify-content: space-between;
+            cursor: pointer;
+
+            &:hover{
+                background-color: #EAEAEA;
+                
+            }
+
+            >div{
+                padding: 20px;
+                display: flex;
+                align-items: center;
+
+                >img{
+                    margin-right: 10px;
+                }
+
+                >h4{
+                    font-size: 16px;
+                    color: #8D8D8D;
+                    margin-bottom: 0;
+                }
+            }
+            >span{
+                padding: 20px;
+                background-color: #F5F5F5;
+                font-size: 16px;
+                color: #8D8D8D;
+            }
+        }
+    }
+
+    &__onlineSUpport{
+        >div{
+            width: 100%;
+            padding: 0;
+
+            display: flex;
+
+            >div{
+                padding: 0 20px !important;
+
+                >h4{
+                    text-align: left !important;
+                    color: #000 !important;
+                    width: 100%;
+                }
+            }
+        }
+
+        >button{
+            margin-top: 16px;
+            width: 100%;
+        }
+    }
+
+    &__newsLetter{
+        display: flex;
+        flex-direction: column;
+    }
+}

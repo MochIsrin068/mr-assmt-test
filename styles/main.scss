@@ -1,0 +1,16 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+// Base
+@import './base/reset';
+@import './base/mq';
+
+@import './layout';
+
+// Pages
+@import './pages/home';
+@import './pages/detail';
+@import './pages/search';
+
+// Components
+@import './components/categoriesCard.scss';
+@import './components/filterCard.scss';

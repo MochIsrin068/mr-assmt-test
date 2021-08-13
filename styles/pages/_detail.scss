@@ -1,0 +1,242 @@
+
+.detail{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 64px; 
+    
+    @include phone{
+        flex-direction: column;
+        padding: 20px 16px; 
+    }
+    
+    @include tablet{
+        flex-direction: column;
+        padding: 20px 16px; 
+    }
+    
+    &__mainContent{
+        width: 65%;
+
+        @include phone{
+            width: 100%;
+        }
+        
+        @include tablet{
+            width: 100%;
+        }
+        
+
+        >h5{
+            @include phone{
+                font-size: 16px;
+            }
+        }
+
+        &__contentCard{
+            font-size: 12px;
+            margin-top: 20px;
+            background-color: #fbfbfb;
+            border: 1px solid #E9E9E9;
+            border-radius: 4px;
+
+            &__header{
+                border-bottom: 3px dotted #CBCBCB;
+                padding:10px 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: #eee;
+
+                >h3{
+                    font-size: 14px;
+                }
+
+                >div{
+                    display: flex;
+                    align-items: center;
+                    
+                    >i{
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            &__body{
+                padding: 20px;
+                display: flex;
+
+
+                @include phone {
+                    flex-direction: column;
+                }
+
+                >div{
+                    display: flex;
+                    flex-direction: column;
+                    margin-right: 30px;
+
+                    >img{
+                        width: 279px;
+                        height: 184px;
+                    }
+
+                    >div{
+                        margin-top: 10px;
+                        display: flex;
+
+                        >img{
+                            margin-right: 10px;
+                            width: 63px;
+                            height: 43px;
+                        }
+                        
+                        >img:nth-last-child(1){
+                            margin-right: 0;
+                        }
+                    }
+
+                    >span{
+                        width: 100%;
+                        text-align: center;
+                        margin-top: 10px;
+                    }
+                }
+
+                >section{
+                    >h3{
+                        font-size: 14px;
+                    }
+
+                    >div:nth-child(1){
+                        display: flex;
+                        align-items: center;
+
+                        >i{
+                            margin-right: 10px;
+                        }
+                    }
+
+                    >section{
+                        margin: 10px 0;
+                        display: flex;
+                        padding: 20px;
+                        background-color: #F6F6F6;
+
+                        >div{
+                            margin-right: 40px;
+                            
+                            @include tablet{
+                                margin-right: 20px;                                
+                            }
+
+                            >h4{
+                                font-size: 12px;
+                                display: flex;
+                                align-items: center;
+
+                                >i{
+                                    margin-right: 10px;
+                                }
+                            }
+                        }
+                    }
+
+                    >aside{
+                        margin-top: 10px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        >h2{
+                            margin-right: 40px;
+                            font-size: 20px;
+                        }
+                    }
+                }
+
+                &__comment{
+                    >div{
+                        display: flex;
+                        border-bottom: 1px solid #E9E9E9;
+                        padding-bottom: 20px;
+                        
+                        >textarea{
+                            width: 70%;
+                            margin-right: 20px;
+                        }
+
+                        >div{
+                            >div{
+                                display: flex;
+
+                                >img{
+                                    margin-right: 10px;
+                                }
+                            }
+                            
+                            >button{
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+
+                    >section{
+                        margin-top: 10px;
+                        padding-top: 10px;
+                        margin-bottom: 16px;
+
+                        display: flex;
+                        padding: 0 4px;
+                        border-radius: 10px;
+
+                        &:hover{
+                            background-color: #F6F6F6;
+                        }
+
+                        >img{
+                            margin-right: 10px;
+                        }
+
+
+                        >div{
+                            >div{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+
+                                >p{
+                                    cursor: pointer;
+                                }
+                            }
+
+                            >p{
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+
+                    >aside{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+
+    &__customContent{
+        width: 30%;
+
+        @include phone{
+            width: 100%;
+            padding-top: 20px;
+        }
+        
+        @include tablet{
+            width: 100%;
+            padding-top: 20px;
+        }
+    }
+}

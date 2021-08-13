@@ -1,0 +1,182 @@
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 64px; 
+    
+    @include phone{
+        flex-direction: column;
+        padding: 20px 16px; 
+    }
+
+    @include tablet{
+        flex-direction: column;
+        padding: 20px 16px; 
+    }
+
+    
+    &__mainContent{
+        width: 65%;
+        
+        @include phone {
+            width: 100%;
+        }
+
+        @include tablet {
+            width: 100%;
+        }
+
+        .grid-content{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, (minmax(200px, 1fr)));
+            gap: 10px;
+        }
+
+        &__itemCard{
+            padding: 20px;
+            border: 1px solid #E9E9E9;
+            background-color: #FBFBFB;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            
+            display: flex;
+            cursor: pointer;
+            
+            &:hover{
+                background-color: #f2f2f2;
+                border: 1px solid #d5d5d5;
+            }
+
+            @include phone {
+                flex-direction: column !important;
+            }
+
+            >div{
+                >section{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    
+                    >p{
+                        display: flex;
+                        align-items: center;
+
+                        >i{
+                            margin-right: 6px;
+                        }
+                    }
+                }
+
+                >div{
+                    background-color: #F6F6F6;
+                    padding: 10px;
+                    border-radius: 4px;
+                    display: flex;
+                    margin-top: 10px;
+
+                    >div{
+                        @include tablet{
+                            margin-right: 20px !important;
+                        }
+
+                        >h4{
+                            font-size: 12px;
+                            display: flex;
+                            >i{
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+
+                >aside{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-top: 10px;
+
+                    >div{
+                        display: flex;
+                        align-items: center;
+
+                        >i{
+                            margin-right: 6px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+                
+            }
+        }
+
+        &__sort{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+            >h5{
+                @include phone{
+                    font-size: 16px !important;
+                    display: none;
+                }
+            }
+
+            >div{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 50%;
+
+                @include phone{
+                    width: 100%;
+                }
+
+                >section{
+                    display: flex;
+                    align-items: center;
+                    margin-right: 8px;
+
+                    >span{
+                        width: 100px;
+
+                        @include phone{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        &__pagination{
+            display: flex;
+            align-items: center;
+
+            @include phone{
+                width: 100%;
+                overflow-x: scroll;
+            }
+
+            >button{
+                margin-right: 10px;
+                border: 1px solid #E9E9E9;
+            }
+            
+        }
+
+    }
+
+    &__customContent{
+        width: 30%;
+
+        @include phone {
+            width: 100%;
+            padding-top: 20px;
+        }
+        
+        @include tablet {
+            padding-top: 20px;
+            width: 100%;
+        }
+    }
+}

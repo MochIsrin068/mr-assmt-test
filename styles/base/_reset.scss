@@ -14,3 +14,18 @@ a {
 * {
   box-sizing: border-box;
 }
+
+ul{
+  margin-top: auto;
+}
+
+
+p{
+  margin-bottom: 10px;
+}
+
+
+button, button:focus{
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,177 @@
+{
+    "categories" : [
+        {"id" : 1, "name" : "Cars", "image" : "/images/car.png"},
+        {"id" : 2, "name" : "Trucks", "image" : "/images/truck.png"},
+        {"id" : 3, "name" : "Motobikes", "image" : "/images/motobike.png"},
+        {"id" : 4, "name" : "Buses", "image" : "/images/bus.png"},
+        {"id" : 5, "name" : "Campers", "image" : "/images/camper.png"}
+    ],
+
+    "products" : [
+        {"id" : 1, "name" : "Qashay", "brand" : "Nissan", "categoryID" : 1, "location" : "New York", "price" : 25000, "imageURL" : "https://www.speednik.com/wp-content/blogs.dir/1/files/2019/02/build-spotlight-dave-caseys-nissan-goes-racing-in-australia-2019-02-05_23-02-28_802707.jpg", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : true,
+            "new" : false
+        }},
+        {"id" : 2, "name" : "Toyota Yarris", "brand" : "Toyota", "categoryID" : 1, "location" : "New York", "price" : 25000, "imageURL" : "https://tsoimageprod.azureedge.net/sys-master-hybrismedia/hd3/hbb/8820560527390/mobil-yang-cocok-untuk-wanita.png", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : true,
+            "new" : false
+        }},
+        {"id" : 3, "name" : "Nissan 123", "brand" : "Nissan", "categoryID" : 1, "location" : "New York", "price" : 25000, "imageURL" : "https://www.otomotifer.com/wp-content/uploads/2019/02/Harga-Mobil-Nissan-Livina.jpg", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : true,
+            "new" : false
+        }},
+        {"id" : 4, "name" : "Rust 099", "brand" : "Rust", "categoryID" : 1, "location" : "New York", "price" : 25000, "imageURL" : "https://images.bisnis-cdn.com/thumb/posts/2021/02/19/1358528/toyota-rush1.jpg?w=744&h=465", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : true,
+            "new" : false
+        }},
+
+        {"id" : 5, "name" : "Truck 1233", "brand" : "Nissan", "categoryID" : 2, "location" : "New York", "price" : 25000, "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Freightliner_M2_106_6x4_2014_%2814240376744%29.jpg/1200px-Freightliner_M2_106_6x4_2014_%2814240376744%29.jpg", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : false,
+            "new" : true
+        }},
+        {"id" : 6, "name" : "Mitsubishi Fuso", "brand" : "Mitsubishi", "categoryID" : 2, "location" : "New York", "price" : 25000, "imageURL" : "https://s18391.pcdn.co/wp-content/uploads/2018/05/FUSO-fe-gas.jpg", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : false,
+            "new" : true
+        }},
+        {"id" : 7, "name" : "Truck Crane 0997", "brand" : "Nissan", "categoryID" : 2, "location" : "New York", "price" : 25000, "imageURL" : "https://www.constructionequipment.com/sites/ce/files/liebherr-truck-crane.jpg", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : false,
+            "new" : false
+        }},
+        {"id" : 8, "name" : "Truck Autsell", "brand" : "Nissan", "categoryID" : 2, "location" : "New York", "price" : 25000, "imageURL" : "https://www.kbb.com/wp-content/uploads/2020/08/2021-ford-f-150-red-front-3qtr.jpg?w=763", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : false,
+            "new" : false
+        }},
+
+        {"id" : 9, "name" : "Motor Matic 1233", "brand" : "Honda", "categoryID" : 3, "location" : "New York", "price" : 25000, "imageURL" : "https://www.astramotor.co.id/wp-content/uploads/2019/12/Honda-Genio-Terbaru.png", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : false,
+            "new" : false
+        }},
+        {"id" : 10, "name" : "Motor Matic 00872", "brand" : "Honda", "categoryID" : 3, "location" : "New York", "price" : 25000, "imageURL" : "https://motorkredit.com/wp-content/uploads/2019/01/VARIO-125-CBS-ISS-BLACK.png", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : false,
+            "new" : false
+        }},
+        {"id" : 11, "name" : "Motor Matic 91292", "brand" : "Honda", "categoryID" : 3, "location" : "New York", "price" : 25000, "imageURL" : "https://www.astramotor.co.id/wp-content/uploads/2019/12/Honda-Genio-Terbaru.png", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : false,
+            "new" : false
+        }},
+        {"id" : 12, "name" : "Motor Matic 1233k", "brand" : "Honda", "categoryID" : 3, "location" : "New York", "price" : 25000, "imageURL" : "https://motorkredit.com/wp-content/uploads/2019/01/VARIO-125-CBS-ISS-BLACK.png", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : false,
+            "new" : false
+        }},
+
+        {"id" : 13, "name" : "Bus 1233 A", "brand" : "Nissan", "categoryID" : 4, "location" : "New York", "price" : 25000, "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/6/63/LT_471_%28LTZ_1471%29_Arriva_London_New_Routemaster_%2819522859218%29.jpg", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : false,
+            "new" : false
+        }},
+        {"id" : 14, "name" : "Bus 1233 B", "brand" : "Nissan", "categoryID" : 4, "location" : "New York", "price" : 25000, "imageURL" : "https://www.reynolds.k12.or.us/sites/default/files/imageattachments/rhs/page/2211/cropped_bus_1.jpg", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : false,
+            "new" : false
+        }},
+        {"id" : 15, "name" : "Bus 1233 C", "brand" : "Nissan", "categoryID" : 4, "location" : "New York", "price" : 25000, "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/6/63/LT_471_%28LTZ_1471%29_Arriva_London_New_Routemaster_%2819522859218%29.jpg", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : false,
+            "new" : false
+        }},
+        {"id" : 16, "name" : "Bus 1233 D", "brand" : "Nissan", "categoryID" : 4, "location" : "New York", "price" : 25000, "imageURL" : "https://www.reynolds.k12.or.us/sites/default/files/imageattachments/rhs/page/2211/cropped_bus_1.jpg", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : false,
+            "new" : false
+        }},
+
+        {"id" : 17, "name" : "Campers 12300 A", "brand" : "Nissan", "categoryID" : 5, "location" : "New York", "price" : 25000, "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/a/ae/White_Fiat_Ducato_Campervan_2006.jpg", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : false,
+            "new" : false
+        }},
+        {"id" : 18, "name" : "Campers 12300 B", "brand" : "Nissan", "categoryID" : 5, "location" : "New York", "price" : 25000, "imageURL" : "https://i2.wp.com/rvblogger.com/wp-content/uploads/2020/07/11-Best-Extreme-Cold-Weather-Campers-min.jpg", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : false,
+            "new" : false
+        }},
+        {"id" : 19, "name" : "Campers 12300 C", "brand" : "Nissan", "categoryID" : 5, "location" : "New York", "price" : 25000, "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/a/ae/White_Fiat_Ducato_Campervan_2006.jpg", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : false,
+            "new" : false
+        }},
+        {"id" : 20, "name" : "Campers 12300 D", "brand" : "Nissan", "categoryID" : 5, "location" : "New York", "price" : 25000, "imageURL" : "https://i2.wp.com/rvblogger.com/wp-content/uploads/2020/07/11-Best-Extreme-Cold-Weather-Campers-min.jpg", "detail" : {
+            "expenditure" : 2005,
+            "gearType" : "Automatic",
+            "mileage" : "16000",
+            "rating" : 4,
+            "used" : false,
+            "new" : false
+        }}
+    ]
+
+}
