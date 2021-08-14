@@ -27,7 +27,8 @@
       "off"
     ],
     "react/self-closing-comp": "off",
-    "react/jsx-props-no-spreading": "off"
+    "react/jsx-props-no-spreading": "off",
+    "jsx-quotes": ["error", "prefer-single"]
   },
   "env": {
     "browser": true,
