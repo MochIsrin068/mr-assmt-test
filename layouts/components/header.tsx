@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import Image from 'next/image'
+import { useState } from "react"
+import Image from "next/image"
 
-import Link from 'next/link'
+import Link from "next/link"
 
 export const TopMenu = () => {
-    const [currentLanguage, setCurrentLanguage] = useState('en')
+    const [currentLanguage, setCurrentLanguage] = useState("en")
 
     return (
-        <div className='mainLayout__header__topMenu'>
+        <div className="mainLayout__header__topMenu">
             <ul>
                 <li><Link href="/">Home</Link></li>
                 <li>About</li>
@@ -17,14 +17,14 @@ export const TopMenu = () => {
 
             <div>
                 <div>
-                    <Image src={currentLanguage === 'en' ? '/images/en.png' : '/images/id.png'} alt="Language" width={20} height={20} />
+                    <Image src={currentLanguage === "en" ? "/images/en.png" : "/images/id.png"} alt="Language" width={20} height={20} />
                     <div className="btn-group">
                         <button className="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            {currentLanguage === 'en' ? 'English' : 'Indonesia'}
+                            {currentLanguage === "en" ? "English" : "Indonesia"}
                         </button>
                         <ul className="dropdown-menu">
-                            <li onClick={() => setCurrentLanguage('en')}><a href="#">&nbsp;English</a></li>
-                            <li onClick={() => setCurrentLanguage('id')}><a href="#">&nbsp;Indonesia</a></li>
+                            <li onClick={() => setCurrentLanguage("en")}><a href="#">&nbsp;English</a></li>
+                            <li onClick={() => setCurrentLanguage("id")}><a href="#">&nbsp;Indonesia</a></li>
                         </ul>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ export const TopMenu = () => {
 
 export const MainMenu = () => {
     return (
-        <div className='mainLayout__header__mainMenu'>
+        <div className="mainLayout__header__mainMenu">
             <div>
                 <Image src="/images/logo.png" alt="Logo" width={182} height={54} />
                 <ul>
@@ -56,7 +56,7 @@ export const MainMenu = () => {
 
 export default function Header() {
     return (
-        <section className='mainLayout__header'>
+        <section className="mainLayout__header">
             <TopMenu />
             <MainMenu />
         </section>
