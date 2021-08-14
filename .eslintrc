@@ -15,17 +15,19 @@
     "react/react-in-jsx-scope": [
       "off"
     ],
-    "react/jsx-filename-extension": [
-      1,
-      {
-        "extensions": [
-          ".js",
-          ".jsx",
-          ".ts",
-          "tsx"
-        ]
-      }
-    ]
+    // "react/jsx-filename-extension": [
+    //   1,
+    //   {
+    //     "extensions": [
+    //       ".js",
+    //       ".jsx",
+    //       ".ts",
+    //       "tsx"
+    //     ]
+    //   }
+    // ],
+    "react/jsx-filename-extension": ["off"],
+    "react/self-closing-comp": "off"
   },
   "env": {
     "browser": true,
