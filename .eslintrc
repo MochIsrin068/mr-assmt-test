@@ -28,7 +28,7 @@
     ],
     "react/self-closing-comp": "off",
     "react/jsx-props-no-spreading": "off",
-    "jsx-quotes": ["error", "prefer-single"]
+    "jsx-quotes": ["error", "prefer-double"]
   },
   "env": {
     "browser": true,
